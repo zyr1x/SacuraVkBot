@@ -1,0 +1,88 @@
+{
+  "token": "vk1.a.hI43AWY20LqwCWpziFAVKHj4vLltQmh4zapwRHiFPjCqPxcOubnTRw3ee4mtiKmYa0lAvovO17tOzXk9wQ0YZRnO009KfUdSDPS12042Wn36CDB57Vi9y7THoDGkgRyaii37f0BI1DjDuBZZdDkw_aOLpQ5m4_5vopF3Z1UYX6LcYyE1GcNQF_0gwAI0yuWzX9UKYykCxaTFh4Kokk_vYA",
+  "groupId": "226674711",
+  "adminsId": [
+    861628021
+  ],
+  "keyBoards": [
+    {
+      "keyboardName": "main",
+      "row": [
+        {
+          "cfgButtons": [
+            {
+              "color": "POSITIVE",
+              "buttonName": "🍀 Sacura Free v1.0",
+              "actions": [
+                {
+                  "text": "Пока-что фри версия еще не вышла, но вы продолжайте ждать.",
+                  "actionName": "sendMessage"
+                }
+              ],
+              "photoFilesName": [
+                "screenshot1.png",
+                "screenshot2.png"
+              ]
+            },
+            {
+              "color": "NEGATIVE",
+              "buttonName": "🎮 Sacura Premium v1.0",
+              "actions": [
+                {
+                  "text": "Воу-воу, купить нашу платную версию пока что невозможно, так как, она еще не релизнулась ;D",
+                  "actionName": "sendMessage"
+                }
+              ],
+              "photoFilesName": []
+            }
+          ]
+        },
+        {
+          "cfgButtons": [
+            {
+              "color": "PRIMARY",
+              "buttonName": "Техническая Поддержка",
+              "actions": [
+                {
+                  "keyBoardName": "cancel",
+                  "text": "Вы успешно обратились в тп, ожидайте, пожалуйста, ответа администратора.",
+                  "actionName": "swapKeyboard"
+                },
+                {
+                  "tagId": 1406,
+                  "actionName": "addTag"
+                }
+              ],
+              "photoFilesName": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "keyboardName": "cancel",
+      "row": [
+        {
+          "cfgButtons": [
+            {
+              "color": "SECONDARY",
+              "buttonName": "Отменить запрос в ТП",
+              "actions": [
+                {
+                  "keyBoardName": "main",
+                  "text": "Вы успешно отменили свой запрос в тп. Удачного дня!",
+                  "actionName": "swapKeyboard"
+                },
+                {
+                  "tagId": 1406,
+                  "actionName": "remTag"
+                }
+              ],
+              "photoFilesName": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
